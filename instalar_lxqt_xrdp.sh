@@ -10,10 +10,10 @@ echo "=== Configurando /etc/skel para futuras cuentas ==="
 echo "lxqt-session" > /etc/skel/.xsession
 chmod +x /etc/skel/.xsession
 
-echo "=== Creando usuario 'andre' ==="
-if ! id "andre" &>/dev/null; then
-    adduser --gecos "" andre
-    usermod -aG sudo andre
+echo "=== Creando usuario 'esteban' ==="
+if ! id "esteban" &>/dev/null; then
+    adduser --gecos "" esteban
+    usermod -aG sudo esteban
 fi
 
 echo "=== Configurando XRDP ==="
